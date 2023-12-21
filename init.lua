@@ -1,0 +1,2 @@
+require("rollercole")
+print("hello")

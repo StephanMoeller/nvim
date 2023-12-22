@@ -3,8 +3,8 @@ vim.wo.number = true
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>ft", vim.cmd.Ex);
-vim.keymap.set("n", "<leader>oa", ":q<Enter>");
-vim.keymap.set("n", "<leader>rs", ":wq<Enter>");
+vim.keymap.set("n", "<leader>s<leader>", ":q<Enter>");
+vim.keymap.set("n", "<leader>a<leader>", ":wq<Enter>");
 vim.keymap.set("n", "U", "<c-r>"); -- Redo
 vim.keymap.set("n", "<enter>", "o<enter>");
 vim.keymap.set("n", "<enter>", "o<enter>");
